@@ -14,7 +14,7 @@ const Header = () => {
           <Link to="/Hire_me">Hire me</Link>
         </li>
       </header>
-      <main></main>
+      <main className="main">main</main>
       <article></article>
     </>
   );
