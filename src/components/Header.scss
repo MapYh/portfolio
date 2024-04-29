@@ -16,3 +16,17 @@
   align-items: center;
   height: 30dvh;
 }
+.main__side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30dvh;
+  width: 50%;
+}
+
+.main__side-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}

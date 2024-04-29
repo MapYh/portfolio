@@ -14,7 +14,23 @@ const Header = () => {
           <Link to="/Hire_me">Hire me</Link>
         </li>
       </header>
-      <main className="main">main</main>
+      <main className="main">
+        <section className="main__side">
+          <section className="main__side-text">
+            <h1>test</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
+              harum, molestiae dolor at vel magnam aliquid officiis error,
+              facere possimus quasi dolores repellat doloribus quis facilis
+              dolorem. Sit, unde velit.
+            </p>
+          </section>
+        </section>
+        <section className="main__side">
+          <img src="" alt="" />
+          pic
+        </section>
+      </main>
       <article></article>
     </>
   );
