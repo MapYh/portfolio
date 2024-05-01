@@ -1,3 +1,15 @@
 .Dropdown-card__list-item {
+  position: relative;
   list-style-type: none;
+  color: black;
+}
+.Dropdown-card__list {
+  position: absolute;
+  list-style-type: none;
+  color: black;
+}
+.Dropdown-card {
+  position: relative;
+  list-style-type: none;
+  color: black;
 }

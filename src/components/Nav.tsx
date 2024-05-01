@@ -24,10 +24,12 @@ const Nav = () => {
         <li className="header-nav-item">
           <Link to="/Work">Work</Link>
         </li>
-        <li className="header-nav-item">
-          <Button onClick={() => setOpen((open) => !open)} />
+        <section className="header-nav-list-lang">
+          <li className="header-nav-item">
+            <Button onClick={() => setOpen((open) => !open)} />
+          </li>
           {open && <Dropdown_card props={languageListData} />}
-        </li>
+        </section>
       </ul>
     </nav>
   );

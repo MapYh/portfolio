@@ -10,4 +10,10 @@
   display: flex;
   margin: 1rem;
   list-style-type: none;
+  color: black;
+}
+
+.header-nav-list-lang {
+  display: flex;
+  flex-direction: column;
 }
