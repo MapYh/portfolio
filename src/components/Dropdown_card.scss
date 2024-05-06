@@ -7,6 +7,12 @@
   position: absolute;
   list-style-type: none;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-wrap: nowrap;
+  margin-left: 1rem;
 }
 .Dropdown-card {
   position: relative;
