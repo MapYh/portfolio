@@ -24,7 +24,7 @@ const Header = () => {
       <main className="main">
         <section className="main__side">
           <section className="main__side-text">
-            <h1>test</h1>
+            <h1 className="main__side-text-hone">test</h1>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
               harum, molestiae dolor at vel magnam aliquid officiis error,
