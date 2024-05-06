@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 import Nav from "./Nav.tsx";
 import "./Header.scss";
 
@@ -11,7 +11,14 @@ const Header = () => {
           <Nav />
         </article>
         <li className="header-nav-item">
-          <Link to="/Hire_me">Hire me</Link>
+          <a
+            onClick={() =>
+              (window.location.href = "mailto:Marko.paatalo@outlook.com")
+            }
+          >
+            Hire me
+          </a>
+          {/* <Link to="/Hire_me">Hire me</Link> */}
         </li>
       </header>
       <main className="main">
