@@ -31,10 +31,26 @@
   align-items: start;
   flex-direction: column;
 }
-.main__side-text-hone {
+.main__side-text-header-one {
   font-family: "Bitter", serif;
-  font-size: 1rem;
+  font-size: 5rem;
   font-style: normal;
   line-height: 1.125;
-  color: red;
+  color: rgb(20, 7, 66);
+  min-width: 39rem;
+}
+
+.main__side-text-text-one {
+  font-family: "Bitter", serif;
+  font-size: 2rem;
+  font-style: normal;
+  line-height: 1.125;
+  color: rgb(20, 7, 66);
+  min-width: 39rem;
+}
+
+@media screen and (max-width: 75rem) {
+  .main {
+    flex-direction: column-reverse;
+  }
 }
