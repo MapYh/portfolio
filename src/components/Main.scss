@@ -1,7 +1,7 @@
 .main__projects {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
 }
 
 .main__projects__header {
@@ -9,4 +9,30 @@
   justify-content: center;
   align-items: center;
   height: 30dvh;
+}
+
+.main__projects__header-text {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  max-width: 39rem;
+}
+
+.main__projects__header-text--styling-header {
+  font-family: "Bitter", serif;
+  font-size: 4rem;
+  font-style: normal;
+  line-height: 1.125;
+  color: rgb(20, 7, 66);
+  min-width: 30rem;
+}
+
+.main__projects__header-text--styling-paragraph {
+  font-family: "Bitter", serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.125;
+  color: rgb(20, 7, 66);
+  min-width: 30rem;
 }
