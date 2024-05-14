@@ -5,7 +5,7 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header className="header">
+      <header className="header header-styling">
         <article className="header-left">
           <div>Logo</div>
           <Nav />

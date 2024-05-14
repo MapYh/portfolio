@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <nav className="header-nav">
       <ul className="header-nav-list">
-        <li className="header-nav-item">
+        <li className="header-nav-item ">
           <Link to="/Home">|</Link>
         </li>
         <li className="header-nav-item">
@@ -25,7 +25,7 @@ const Nav = () => {
           <Link to="/Work">Work</Link>
         </li>
         <section className="header-nav-list-lang">
-          <li className="header-nav-item">
+          <li className="header-nav-item header-styling">
             <Button onClick={() => setOpen((open) => !open)} />
           </li>
           {open && <Dropdown_card props={languageListData} />}
