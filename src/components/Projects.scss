@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: red;
 }
 
 .projects__collection {
@@ -10,6 +9,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .projects__collection-project {
@@ -19,4 +20,43 @@
 
   width: 100%;
   height: 30dvh;
+}
+
+.projects__collection-project-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  width: 100%;
+  height: 30dvh;
+  margin: 2rem;
+}
+
+.projects__collection-project-text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  width: 100%;
+  height: 30dvh;
+  margin: 2rem;
+}
+
+.project-text--styling {
+  font-family: "Bitter", serif;
+  font-size: 1rem;
+
+  font-style: normal;
+  line-height: 1;
+  color: rgb(20, 7, 66);
+  min-width: 50%;
+}
+
+.project-titel--styling {
+  font-family: "Bitter", serif;
+  font-size: rem;
+  font-style: normal;
+  line-height: 1.125;
+  color: rgb(20, 7, 66);
+  min-width: 50%;
 }

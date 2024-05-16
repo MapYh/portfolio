@@ -26,48 +26,9 @@ a:hover {
   align-items: center;
   height: 5rem;
 }
-
-/* .main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30dvh;
+  min-width: 30rem;
 }
-.main__side {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30dvh;
-  width: 50%;
-}
-
-.main__side-text {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-}
-.main__side-text-header-one {
-  font-family: "Bitter", serif;
-  font-size: 5rem;
-  font-style: normal;
-  line-height: 1.125;
-  color: rgb(20, 7, 66);
-  min-width: 39rem;
-}
-
-.main__side-text-text-one {
-  font-family: "Bitter", serif;
-  font-size: 2rem;
-  font-style: normal;
-  line-height: 1.125;
-  color: rgb(20, 7, 66);
-  min-width: 39rem;
-}
-
-@media screen and (max-width: 75rem) {
-  .main {
-    flex-direction: column-reverse;
-  }
-}
- */

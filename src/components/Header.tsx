@@ -21,8 +21,6 @@ const Header = () => {
           {/* <Link to="/Hire_me">Hire me</Link> */}
         </li>
       </header>
-
-      <article></article>
     </>
   );
 };
