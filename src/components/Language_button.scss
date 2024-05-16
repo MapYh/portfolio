@@ -1,4 +1,10 @@
-/* .button {
-  border-radius: 1rem;
-  background-color: blue;
-} */
+.button {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+  font-family: "Bitter", serif;
+  font-size: 1.3rem;
+
+  font-style: normal;
+  line-height: 1.125;
+}
