@@ -1,6 +1,5 @@
 /* import { Link } from "react-router-dom"; */
 import Nav from "./Nav.tsx";
-import Header_main from "./Header_main.tsx";
 import "./Header.scss";
 
 const Header = () => {

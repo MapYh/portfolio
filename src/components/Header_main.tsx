@@ -1,3 +1,4 @@
+import "./header_main.scss";
 const Header_main = () => {
   return (
     <>
@@ -18,7 +19,6 @@ const Header_main = () => {
           pic
         </section>
       </main>
-      ;
     </>
   );
 };

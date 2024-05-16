@@ -1,33 +1,4 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-styling {
-  font-family: "Bitter", serif;
-  font-size: 1.3rem;
-
-  font-style: normal;
-  line-height: 1.125;
-}
-
-a:link,
-a:visited,
-a:active,
-a:hover {
-  text-decoration: none;
-  color: #d97503fb;
-}
-
-.header-left {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 5rem;
-}
-
-/* .main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +41,3 @@ a:hover {
     flex-direction: column-reverse;
   }
 }
- */
