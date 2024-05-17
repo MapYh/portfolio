@@ -2,6 +2,8 @@ import Header from "../components/Header.tsx";
 import Main from "../components/Main.tsx";
 import Projects from "../components/Projects.tsx";
 import Header_main from "../components/Header_main.tsx";
+import { homePageContent } from "../variables/variables.ts";
+
 import "./home.scss";
 
 const Home = () => {
@@ -11,7 +13,7 @@ const Home = () => {
 
       <section className="home-wrapper">
         <Header_main />
-        <Main />
+        <Main {...homePageContent} />
         <Projects />
       </section>
     </>
