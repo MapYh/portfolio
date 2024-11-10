@@ -14,4 +14,9 @@ export interface HomePageContent {
   pageDescription: string;
 }
 
+export interface MailToContent {
+  mailto: string;
+  label: string;
+}
+
 export default Content;

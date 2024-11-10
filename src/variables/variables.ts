@@ -1,5 +1,5 @@
 import Content from "../types/interfaces.ts";
-import { HomePageContent } from "../types/interfaces.ts";
+import { HomePageContent, MailToContent } from "../types/interfaces.ts";
 
 const homePageContent: HomePageContent = {
   titel: `Let's work <br/> together`,
@@ -20,7 +20,12 @@ const aboutPageContent: Content = {
     "For me, coding is about more than just solving problems—it’s about creating meaningful experiences and continuously learning. I take pride in writing clean, maintainable code and always look for ways to optimize performance without sacrificing quality. Collaboration is key to my workflow, and I enjoy working in dynamic environments where ideas are shared, and knowledge is freely exchanged.",
   titelBeyondCode: "Beyond Code",
   BeyondCode:
-    " I’m also an avid learner and regularly build my own projects to expand my skill set and stay on top of industry trends.",
+    " I’m also an avid learner and regularly build my own projects to expand my skill set and stay on top of industry trends.<br /> <br />Let’s connect and build something amazing together!",
 };
 
-export { homePageContent, aboutPageContent };
+const mailToContent: MailToContent = {
+  mailto: `mailto:Marko.paatalo@outlook.com`,
+  label: `Hire me`,
+};
+
+export { homePageContent, aboutPageContent, mailToContent };

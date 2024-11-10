@@ -1,25 +1,20 @@
-/* import { Link } from "react-router-dom"; */
 import Nav from "./Nav.tsx";
 import "./Header.scss";
+import Logo from "../assets/logo.svg";
+import ButtonMailTo from "./ButtonMailto.tsx";
+import { mailToContent } from "../variables/variables.ts";
 
 const Header = () => {
   return (
     <>
       <header className="header header-styling">
         <article className="header-left">
-          <div>Logo</div>
+          <div>
+            <img src={Logo} alt="Image of a logo" />
+          </div>
           <Nav />
         </article>
-        <li className="header-nav-item">
-          <a
-            onClick={() =>
-              (window.location.href = "mailto:Marko.paatalo@outlook.com")
-            }
-          >
-            Hire me
-          </a>
-          {/* <Link to="/Hire_me">Hire me</Link> */}
-        </li>
+        <ButtonMailTo {...mailToContent} />
       </header>
     </>
   );

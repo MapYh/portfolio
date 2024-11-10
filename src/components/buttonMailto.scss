@@ -1,0 +1,15 @@
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  color: #d97503fb;
+}
+
+.header-nav-item {
+  cursor: pointer;
+  display: flex;
+  margin: 1rem;
+  list-style-type: none;
+  color: black;
+}
