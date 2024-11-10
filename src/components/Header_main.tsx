@@ -17,7 +17,7 @@ const Header_main = () => {
         </section>
         <section className="main__side ">
           <section className="main__logo--styling">
-            <div className="first_triangle  "></div>
+            <div className="first_triangle"></div>
             <div className="second_triangle"></div>
           </section>
         </section>

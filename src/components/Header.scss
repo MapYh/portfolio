@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 2.5rem;
+  margin-right: 2rem;
 }
 
 .header-styling {
@@ -29,10 +29,12 @@ a:hover {
   height: 5rem;
 }
 .main {
+  max-width: 80%;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 30rem;
+  /* min-width: 30rem; */
 }
 
 .main__logo--styling__nav {
