@@ -3,6 +3,32 @@
   justify-content: start;
   align-items: start;
 }
+.main__about_page {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+}
+.main__projects__header-text--styling-header {
+  font-family: "Bitter", serif;
+  font-size: 4rem;
+  font-style: normal;
+  line-height: 1.125;
+  color: rgb(20, 7, 66);
+  min-width: 30rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main__about__header {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100dvh;
+  margin-top: 10rem;
+}
+
+/* ---------Projects header----------- */
 
 .main__projects__header {
   display: flex;
