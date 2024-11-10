@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 .header-styling {
@@ -31,4 +33,30 @@ a:hover {
   justify-content: center;
   align-items: center;
   min-width: 30rem;
+}
+
+.main__logo--styling__nav {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.nav__first-triangle {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid rgb(123, 108, 178);
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.nav__second-triangle {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid #d97503fb;
+  opacity: 0.4;
+  z-index: 1;
 }

@@ -7,10 +7,12 @@
 }
 
 .main__side-text {
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: start;
   flex-direction: column;
+  z-index: 3;
 }
 .main__side-text-header-one {
   font-family: "Bitter", serif;
@@ -28,6 +30,30 @@
   line-height: 1.125;
   color: rgb(20, 7, 66);
   min-width: 39rem;
+}
+
+.first_triangle {
+  rotate: -90deg;
+  border-top: 55.75vmin solid transparent;
+  border-bottom: 18.75vmin solid transparent;
+  border-left: 18.75vmin solid rgb(123, 108, 178);
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.second_triangle {
+  rotate: -90deg;
+  border-top: 55.75vmin solid transparent;
+  border-bottom: 22.75vmin solid transparent;
+  border-left: 14.75vmin solid #d97503fb;
+  opacity: 0.4;
+  z-index: 1;
+}
+
+.main__logo--styling {
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
 @media screen and (max-width: 75rem) {

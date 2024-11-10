@@ -1,6 +1,6 @@
 import Nav from "./Nav.tsx";
 import "./Header.scss";
-import Logo from "../assets/logo.svg";
+
 import ButtonMailTo from "./ButtonMailto.tsx";
 import { mailToContent } from "../variables/variables.ts";
 
@@ -10,7 +10,10 @@ const Header = () => {
       <header className="header header-styling">
         <article className="header-left">
           <div>
-            <img src={Logo} alt="Image of a logo" />
+            <section className="main__logo--styling__nav">
+              <div className="nav__first-triangle"></div>
+              <div className="nav__second-triangle"></div>
+            </section>
           </div>
           <Nav />
         </article>

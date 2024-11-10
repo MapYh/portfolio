@@ -1,4 +1,5 @@
 import "./header_main.scss";
+
 const Header_main = () => {
   return (
     <>
@@ -10,13 +11,15 @@ const Header_main = () => {
               name is <b>Test</b>
             </h1>
             <p className="main__side-text-text-one">
-              I'm an <b>creative developer</b> from Southern, Sweden.
+              I'm an <b>creative developer</b> from Sweden.
             </p>
           </section>
         </section>
-        <section className="main__side">
-          <img src="" alt="" />
-          pic
+        <section className="main__side ">
+          <section className="main__logo--styling">
+            <div className="first_triangle  "></div>
+            <div className="second_triangle"></div>
+          </section>
         </section>
       </main>
     </>

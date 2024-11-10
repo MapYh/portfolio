@@ -2,6 +2,8 @@ import "./Main.scss";
 import Content from "../types/interfaces.ts";
 import parser from "html-react-parser";
 
+import "../pages/about.scss";
+
 const Main = ({
   titel,
   pageDescription,
@@ -14,7 +16,7 @@ const Main = ({
   BeyondCode,
 }: Content) => {
   return (
-    <main className="main__about_page">
+    <main className="main__about_page about_background">
       <article className="main__about__header ">
         <article className="main__projects__header-text">
           <h2 className="main__projects__header-text--styling-header">
