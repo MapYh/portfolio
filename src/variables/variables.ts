@@ -14,7 +14,7 @@ const aboutPageContent: Content = {
   myInterest:
     "I have a broad interest in development, spanning both front-end and back-end work. On the front-end side, I enjoy designing intuitive and responsive interfaces that bring ideas to life and make users' interactions feel natural. I work with frameworks like React, and Express and I’m always exploring new libraries and techniques to stay current in the fast-evolving world of front-end development.",
   myInterest_cont:
-    "On the back end, I’m driven by a fascination with problem-solving and optimization. Whether I’m designing APIs, managing databases, or building scalable server architectures, I love diving into the details that make applications reliable and efficient. I have experience with languages like Node.js, C++, and Python, as well as databases like MySQL, MongoDB, and cloud services like AWS.",
+    "<br /> On the back end, I’m driven by a fascination with problem-solving and optimization. Whether I’m designing APIs, managing databases, or building scalable server architectures, I love diving into the details that make applications reliable and efficient. I have experience with languages like Node.js, C++, and Python, as well as databases like MySQL, MongoDB, and cloud services like AWS.",
   titelMyApproach: "My Approach",
   myApproach:
     "For me, coding is about more than just solving problems—it’s about creating meaningful experiences and continuously learning. I take pride in writing clean, maintainable code and always look for ways to optimize performance without sacrificing quality. Collaboration is key to my workflow, and I enjoy working in dynamic environments where ideas are shared, and knowledge is freely exchanged.",
