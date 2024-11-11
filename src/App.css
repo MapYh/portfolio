@@ -5,3 +5,9 @@
   padding-left: 7rem;
   padding-right: 7rem;
 }
+/* Fortsätt här */
+/* @media screen and (max-width: 745px) {
+  .main {
+    flex-direction: column;
+  }
+} */

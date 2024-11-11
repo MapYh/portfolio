@@ -23,6 +23,7 @@ a:hover {
 .header-nav-list-lang {
   display: flex;
   flex-direction: column;
+  text-wrap: nowrap;
 }
 
 .header-styling {
