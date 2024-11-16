@@ -9,7 +9,7 @@ const homePageContent: HomePageContent = {
 const aboutPageContent: Content = {
   titel: "About me",
   pageDescription:
-    "Hello! I’m [Your Name], a passionate and versatile software developer with a love for all things code. My journey into programming started with a curiosity about how technology shapes our daily lives, and over the years, that curiosity has evolved into a career focused on creating powerful, seamless digital experiences. ",
+    "Hello! I’m Test, a passionate and versatile software developer with a love for all things code. My journey into programming started with a curiosity about how technology shapes our daily lives, and over the years, that curiosity has evolved into a career focused on creating powerful, seamless digital experiences. ",
   titelMyInterest: "My Interests",
   myInterest:
     "I have a broad interest in development, spanning both front-end and back-end work. On the front-end side, I enjoy designing intuitive and responsive interfaces that bring ideas to life and make users' interactions feel natural. I work with frameworks like React, and Express and I’m always exploring new libraries and techniques to stay current in the fast-evolving world of front-end development.",
