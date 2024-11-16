@@ -5,13 +5,14 @@ import Mongo_icon from "../assets/mongo.svg";
 import Express_icon from "../assets/express.svg";
 import nodejs_icon from "../assets/nodejs-icon.svg";
 import aws_logo from "../assets/aws-svgrepo-com.svg";
+import background from "../assets/work-background.svg";
 
 const Work = () => {
   return (
     <>
       <Header />
       <section className="stack_and_image">
-        <section className="stack_and_image__stack">
+        <section className="stack_and_image__stack ">
           <h2 className="stack_and_image__stack--heading">
             MERNing Ideas into Reality
           </h2>
@@ -29,29 +30,35 @@ const Work = () => {
             performance and resource efficiency.
           </p>
         </section>
+
         <section className="stack_and_image__img">
           <img
-            className="stack_and_image__img--styling-img"
+            className="stack_and_image__img-background"
+            src={background}
+            alt=""
+          />
+          <img
+            className="stack_and_image__img--styling"
             src={Mongo_icon}
             alt=""
           />
           <img
-            className="stack_and_image__img--styling-img"
+            className="stack_and_image__img--styling"
             src={Express_icon}
             alt=""
           />
           <img
-            className="stack_and_image__img--styling-img"
+            className="stack_and_image__img--styling"
             src={React_icon}
             alt=""
           />
           <img
-            className="stack_and_image__img--styling-img"
+            className="stack_and_image__img--styling"
             src={nodejs_icon}
             alt=""
           />
           <img
-            className="stack_and_image__img--styling-img"
+            className="stack_and_image__img--styling"
             src={aws_logo}
             alt=""
           />
