@@ -3,17 +3,10 @@
   justify-content: center;
   align-items: center;
   height: 30dvh;
-  width: 50%;
+  width: 30%;
   margin-left: 5rem;
 }
-.main__side__logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30dvh;
-  width: 50%;
-  margin-left: 5rem;
-}
+
 .main__side-text {
   z-index: 1;
   display: flex;
@@ -61,9 +54,20 @@
 
 .main__logo--styling {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   align-items: start;
   max-width: 50%;
+  width: 30dvh;
+  /* height: 50dvh; */
+}
+
+.main__side__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30dvh;
+  width: 50%;
+  margin-left: 5rem;
 }
 
 @media screen and (max-width: 75rem) {

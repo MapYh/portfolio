@@ -6,9 +6,11 @@ import "./about.scss";
 const About = () => {
   return (
     <>
-      <section>
+      <section className="background_color_about">
         <Header />
-        <Main {...aboutPageContent} />
+        <section className="about-wrapper ">
+          <Main {...aboutPageContent} />
+        </section>
       </section>
     </>
   );

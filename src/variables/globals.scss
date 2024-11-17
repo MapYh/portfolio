@@ -1,0 +1,7 @@
+@function set-color($color) {
+  @if (lightness($color) > 10) {
+    @return rgb(40, 66, 91);
+  } @else {
+    @return #ffffff;
+  }
+}

@@ -8,12 +8,14 @@ import "./home.scss";
 const Home = () => {
   return (
     <>
-      <Header />
+      <section className="background_color">
+        <Header />
 
-      <section className="home-wrapper">
-        <Header_main />
+        <section className="home-wrapper">
+          <Header_main />
 
-        <Projects />
+          <Projects />
+        </section>
       </section>
     </>
   );
