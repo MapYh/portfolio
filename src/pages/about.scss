@@ -1,9 +1,11 @@
 .background_color_about {
+  min-width: 67rem;
   padding-bottom: 10rem;
   background-color: rgb(252, 251, 247);
-  width: 100%;
+  /* width: 100%; */
 }
 
 .about-wrapper {
-  min-width: 20rem;
+  margin: 2rem;
+  min-width: 75rem;
 }

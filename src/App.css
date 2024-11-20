@@ -5,9 +5,11 @@
   padding-left: 7rem;
   padding-right: 7rem;
 }
-/* Fortsätt här */
-/* @media screen and (max-width: 745px) {
-  .main {
-    flex-direction: column;
+
+@media screen and (max-width: 24rem) {
+  #root {
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
-} */
+}

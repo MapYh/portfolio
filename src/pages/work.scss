@@ -71,3 +71,28 @@
 .work-wrapper {
   min-width: 20rem;
 }
+
+@media screen and (max-width: 78rem) {
+  .stack_and_image {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 24rem) {
+  .stack_and_image__stack--heading {
+    max-width: 10rem;
+  }
+  .stack_and_image__stack--paragraph {
+    max-width: 10rem;
+    font-size: 2.5rem;
+  }
+  .background_color_work {
+    max-width: 40rem;
+  }
+  .stack_and_image__img--styling {
+    width: 15rem;
+  }
+  .stack_and_image__img-background {
+    display: none;
+  }
+}
