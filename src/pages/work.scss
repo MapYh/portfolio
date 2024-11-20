@@ -53,8 +53,7 @@
 .stack_and_image__img-background {
   z-index: 0;
   position: absolute;
-  /*  margin-left: 11rem;
-  margin-bottom: 9rem; */
+
   opacity: 0.5;
   clip-path: circle(200px at center);
 }
@@ -64,8 +63,8 @@
 }
 
 .background_color_work {
+  padding-bottom: 10rem;
   background-color: rgb(243, 253, 243);
-
   width: 100%;
 }
 
