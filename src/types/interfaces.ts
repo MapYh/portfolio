@@ -19,4 +19,24 @@ export interface MailToContent {
   label: string;
 }
 
+export interface Triangle_colors {
+  classname: string;
+  secondClassName: string;
+}
+
+export interface Triangle_colors_home {
+  first_home_triangle: string;
+  second_home_triangle: string;
+}
+
+export interface Triangle_colors_about {
+  first_about_triangle: string;
+  second_about_triangle: string;
+}
+
+export interface Triangle_colors_work {
+  first_work_triangle: string;
+  second_work_triangle: string;
+}
+
 export default Content;

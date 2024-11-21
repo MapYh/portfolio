@@ -1,5 +1,11 @@
 import Content from "../types/interfaces.ts";
-import { HomePageContent, MailToContent } from "../types/interfaces.ts";
+import {
+  HomePageContent,
+  MailToContent,
+  Triangle_colors_home,
+  Triangle_colors_about,
+  Triangle_colors_work,
+} from "../types/interfaces.ts";
 
 const homePageContent: HomePageContent = {
   titel: `Let's work <br/> together`,
@@ -28,4 +34,26 @@ const mailToContent: MailToContent = {
   label: `Hire me`,
 };
 
-export { homePageContent, aboutPageContent, mailToContent };
+const classnames_home: Triangle_colors_home = {
+  first_home_triangle: "nav__first-triangle-home",
+  second_home_triangle: "nav__second-triangle-home",
+};
+
+const classnames_about: Triangle_colors_about = {
+  first_about_triangle: "nav__second-triangle-about",
+  second_about_triangle: "nav__second-triangle-about",
+};
+
+const classnames_work: Triangle_colors_work = {
+  first_work_triangle: "nav__second-triangle-work",
+  second_work_triangle: "nav__second-triangle-work",
+};
+
+export {
+  homePageContent,
+  aboutPageContent,
+  mailToContent,
+  classnames_home,
+  classnames_about,
+  classnames_work,
+};

@@ -12,3 +12,21 @@
   background-color: rgb(255, 249, 249);
   width: 100%;
 }
+
+.nav__first-triangle-home {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid rgb(123, 108, 178);
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.nav__second-triangle-home {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid #d97503fb;
+  opacity: 0.4;
+  z-index: 1;
+}

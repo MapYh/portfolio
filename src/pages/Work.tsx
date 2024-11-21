@@ -7,11 +7,18 @@ import nodejs_icon from "../assets/nodejs-icon.svg";
 import aws_logo from "../assets/aws-svgrepo-com.svg";
 import background from "../assets/work-background.svg";
 
+import { classnames_work } from "../variables/variables.ts";
+
+const settings = {
+  classname: `${classnames_work.first_work_triangle}`,
+  secondClassName: `${classnames_work.second_work_triangle}`,
+};
+
 const Work = () => {
   return (
     <>
       <section className=" background_color_work ">
-        <Header />
+        <Header {...settings} />
         <section className="work-wrapper">
           <section className="stack_and_image">
             <section className="stack_and_image__stack ">

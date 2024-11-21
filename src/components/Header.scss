@@ -1,3 +1,5 @@
+@import "src/variables/globals.scss";
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -44,24 +46,6 @@ a:hover {
   align-items: end;
   width: auto;
   margin-right: 1rem;
-}
-
-.nav__first-triangle {
-  rotate: -90deg;
-  border-top: 5.575vmin solid transparent;
-  border-bottom: 2vmin solid transparent;
-  border-left: 2vmin solid rgb(123, 108, 178);
-  opacity: 0.5;
-  z-index: 2;
-}
-
-.nav__second-triangle {
-  rotate: -90deg;
-  border-top: 5.575vmin solid transparent;
-  border-bottom: 2vmin solid transparent;
-  border-left: 2vmin solid #d97503fb;
-  opacity: 0.4;
-  z-index: 1;
 }
 
 @media screen and (max-width: 24rem) {

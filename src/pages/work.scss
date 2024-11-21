@@ -72,6 +72,24 @@
   min-width: 20rem;
 }
 
+.nav__first-triangle-work {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid rgb(47, 11, 91);
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.nav__second-triangle-work {
+  rotate: -90deg;
+  border-top: 5.575vmin solid transparent;
+  border-bottom: 2vmin solid transparent;
+  border-left: 2vmin solid rgb(47, 11, 91);
+  opacity: 0.4;
+  z-index: 1;
+}
+
 @media screen and (max-width: 78rem) {
   .stack_and_image {
     flex-direction: column;
