@@ -1,19 +1,19 @@
 .background_color_about {
-  min-width: 67rem;
-  padding-bottom: 10rem;
+  min-width: 23rem;
+  padding-bottom: 20rem;
   background-color: rgb(252, 251, 247);
   /* width: 100%; */
 }
 
 .about-wrapper {
-  min-width: 75rem;
+  min-width: 10rem;
 }
 
 .nav__first-triangle-about {
   rotate: -90deg;
   border-top: 5.575vmin solid transparent;
   border-bottom: 2vmin solid transparent;
-  border-left: 2vmin solid rgb(20, 7, 66);
+  border-left: 2vmin solid rgb(96, 77, 164);
   opacity: 0.5;
   z-index: 2;
 }
@@ -22,7 +22,19 @@
   rotate: -90deg;
   border-top: 5.575vmin solid transparent;
   border-bottom: 2vmin solid transparent;
-  border-left: 2vmin solid rgb(20, 7, 66);
+  border-left: 2vmin solid rgb(110, 89, 184);
   opacity: 0.4;
   z-index: 1;
+}
+
+@media screen and (max-width: 53rem) {
+  .background_color_about {
+    padding-bottom: 30rem;
+  }
+}
+
+@media screen and (max-width: 31rem) {
+  .background_color_about {
+    padding-bottom: 40rem;
+  }
 }

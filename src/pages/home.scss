@@ -8,9 +8,9 @@
 }
 
 .background_color {
+  min-width: 23rem;
   padding-bottom: 10rem;
   background-color: rgb(255, 249, 249);
-  width: 100%;
 }
 
 .nav__first-triangle-home {
@@ -29,4 +29,10 @@
   border-left: 2vmin solid #d97503fb;
   opacity: 0.4;
   z-index: 1;
+}
+
+@media screen and (max-width: 31rem) {
+  .home-wrapper {
+    margin: 1rem;
+  }
 }
