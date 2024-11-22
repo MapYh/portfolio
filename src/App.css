@@ -6,7 +6,7 @@
   padding-right: 7rem;
 }
 
-@media screen and (max-width: 53rem) {
+@media screen and (max-width: 60rem) {
   #root {
     padding: 0;
     padding-left: 0;
