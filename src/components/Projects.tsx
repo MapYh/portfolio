@@ -24,8 +24,8 @@ const Projects = () => {
           <section className="projects__collection-project-text">
             <h1 className="project-titel--styling">Tetris</h1>
             <p className="project-text--styling">
-              A Tetris like game that is built with JS and CSS, i built this
-              game to practice vanilla JS and CSS.
+              A Tetris like game that is built with JS and CSS, I used this game
+              to practice JS and CSS.
             </p>
           </section>
         </article>

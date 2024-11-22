@@ -2,7 +2,7 @@ import Header from "../components/Header.tsx";
 import Main from "../components/Main.tsx";
 import { aboutPageContent } from "../variables/variables.ts";
 import "./about.scss";
-
+import Footer from "../components/Footer.jsx";
 import { classnames_about } from "../variables/variables.ts";
 
 const settings = {
@@ -18,6 +18,7 @@ const About = () => {
         <section className="about-wrapper ">
           <Main {...aboutPageContent} />
         </section>
+        <Footer />
       </section>
     </>
   );

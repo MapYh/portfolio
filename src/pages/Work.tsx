@@ -6,7 +6,7 @@ import Express_icon from "../assets/express.svg";
 import nodejs_icon from "../assets/nodejs-icon.svg";
 import aws_logo from "../assets/aws-svgrepo-com.svg";
 import background from "../assets/work-background.svg";
-
+import Footer from "../components/Footer.jsx";
 import { classnames_work } from "../variables/variables.ts";
 
 const settings = {
@@ -74,6 +74,7 @@ const Work = () => {
             </section>
           </section>
         </section>
+        <Footer />
       </section>
     </>
   );
