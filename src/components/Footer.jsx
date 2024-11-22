@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        &copy; 2022 My Website |
+        &copy; 2024 Portfolio |
         <a href="https://github.com/MapYh" target="_blank">
           <i className="fab fa-github"></i> GitHub
         </a>
