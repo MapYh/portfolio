@@ -9,7 +9,7 @@ const Projects = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://mapyh.github.io/Tetris/"
+            href="https://github.com/MapYh/Tetris"
           >
             <section className="projects__collection-project-pic">
               <img
