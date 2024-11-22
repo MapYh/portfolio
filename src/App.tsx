@@ -7,7 +7,7 @@ import Work from "./pages/Work.tsx";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio/">
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
