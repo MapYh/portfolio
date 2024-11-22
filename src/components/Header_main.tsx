@@ -8,7 +8,7 @@ const Header_main = () => {
           <section className="main__side-text">
             <h1 className="main__side-text-header-one">
               Hi, My <br />
-              name is <b>Test</b>
+              name is <b>Marko</b>
             </h1>
             <p className="main__side-text-text-one">
               I'm an <b>creative developer</b> from Sweden.

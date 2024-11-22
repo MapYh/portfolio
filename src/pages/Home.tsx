@@ -2,7 +2,7 @@ import Header from "../components/Header.tsx";
 
 import Projects from "../components/Projects.tsx";
 import Header_main from "../components/Header_main.tsx";
-
+import Footer from "../components/Footer.jsx";
 import "./home.scss";
 
 import { classnames_home } from "../variables/variables.ts";
@@ -23,6 +23,8 @@ const Home = () => {
 
           <Projects />
         </section>
+
+        <Footer />
       </section>
     </>
   );
